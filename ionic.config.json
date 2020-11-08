@@ -1,0 +1,7 @@
+{
+  "name": "churrasTcheIonicApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
