@@ -1,5 +1,5 @@
 ## SETUP
-npm install
+npm install<br />
 ionic serve --lab
 
 ### Description
