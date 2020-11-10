@@ -1,3 +1,5 @@
+![Alt text](/src/assets/images/ss.png?raw=true "Screenshot")
+
 ## SETUP
 npm install<br />
 ionic serve --lab
