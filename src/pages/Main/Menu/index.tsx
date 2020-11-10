@@ -5,9 +5,9 @@ import {
   IonLabel, 
   IonPage, 
 } from '@ionic/react';
-import Header from '../../components/Header';
-import Card from '../../components/Card';
-import { Container } from '../layout';
+import Header from '../../../components/Header';
+import Card from '../../../components/Card';
+import { Container } from '../../layout';
 import { AvatarContainer, AvatarImage, AvatarInfo } from './styles';
 
 const Menu: React.FC = () => {

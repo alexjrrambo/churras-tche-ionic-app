@@ -3,9 +3,9 @@ import {
   IonContent, 
   IonPage, 
 } from '@ionic/react';
-import Header from '../../components/Header';
-import Card from '../../components/Card';
-import { Container } from '../layout';
+import Header from '../../../components/Header';
+import Card from '../../../components/Card';
+import { Container } from '../../layout';
 
 const Simulacao: React.FC = () => {
   return (

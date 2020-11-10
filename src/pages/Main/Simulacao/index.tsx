@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { IonButton, IonContent, IonPage, IonIcon, IonLabel } from '@ionic/react';
 import { addCircleOutline, removeCircleOutline } from 'ionicons/icons';
 import { DescriptionContent, ContentItem, } from './styles';
-import Header from '../../components/Header';
-import Card from '../../components/Card';
-import { Container } from '../layout';
+import Header from '../../../components/Header';
+import Card from '../../../components/Card';
+import { Container } from '../../layout';
 
 const initialState = [
   {

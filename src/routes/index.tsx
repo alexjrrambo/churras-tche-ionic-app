@@ -1,8 +1,8 @@
 import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
-import Simulacao from '../pages/Simulacao';
-import Favoritos from '../pages/Favoritos';
-import Menu from '../pages/Menu';
+import Simulacao from '../pages/Main/Simulacao';
+import Favoritos from '../pages/Main/Favoritos';
+import Menu from '../pages/Main/Menu';
 import Login from '../pages/Login';
 import Main from '../pages/Main';
 
