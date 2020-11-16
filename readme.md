@@ -8,9 +8,5 @@ ionic serve --lab
 Projeto criado utilizando React + Ionic;
 
 ### TODO LIST
-splash screen<br />
-app icon<br />
-Lógica para calculo de compras<br />
+Utilizar algum recurso nativo<br />
 Página com lista de compras<br />
-Página de compras favoritas<br />
-API rest em node?<br />
