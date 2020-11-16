@@ -5,11 +5,13 @@ import Favoritos from '../pages/Main/Favoritos';
 import Menu from '../pages/Main/Menu';
 import Login from '../pages/Login';
 import Main from '../pages/Main';
+import Registrar from '../pages/Registrar';
 
 export const PublicRoutes: React.FC = () => {
   return (
     <>
       <Route path="/login" component={Login} exact={true} />
+      <Route path="/registrar" component={Registrar} exact={true} />
       <Route path="/main" component={Main} />
       <Route path="/" component={Login} exact={true} />
     </>

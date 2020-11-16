@@ -9,6 +9,7 @@ import Header from '../../../components/Header';
 import Card from '../../../components/Card';
 import { Container } from '../../layout';
 import { AvatarContainer, AvatarImage, AvatarInfo } from './styles';
+import { DataBaseProvider } from '../../../services/firebaseDatabase';
 
 const Menu: React.FC = () => {
   const handleLogout = () => {
@@ -24,8 +25,9 @@ const Menu: React.FC = () => {
             <AvatarContainer>
               <AvatarImage />
               <AvatarInfo>
-                <IonLabel>Alex Jr Rambo</IonLabel>
-                <IonLabel>alexjr.rambo@gmail.com</IonLabel>
+                {/* O correto seria utilizar uma store no redux para armazenar essas infos */}
+                <IonLabel>{localStorage.getItem('@churrastche-app/name')}</IonLabel>
+                <IonLabel>{localStorage.getItem('@churrastche-app/email')}</IonLabel>
               </AvatarInfo>
             </AvatarContainer>
           </Card>

@@ -10,9 +10,6 @@ import '@ionic/react/css/normalize.css';
 import '@ionic/react/css/structure.css';
 import '@ionic/react/css/typography.css';
 
-/* Optional CSS utils that can be commented out */
-
-
 /* Theme variables */
 import './theme/variables.css';
 import { PublicRoutes } from './routes';
